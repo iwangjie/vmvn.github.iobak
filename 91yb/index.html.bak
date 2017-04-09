@@ -1,0 +1,434 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<div style="display: none;" id="rocket-to-top">
+<div style="opacity:0;display: block;" class="level-2"></div>
+<div class="level-3"></div>
+</div>
+</head>
+<body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>91云播-官方网站</title>
+<style type="text/css">
+body{background:url("images/bg.gif") no-repeat center top fixed; margin-top:0px;}
+img, div, input{behavior:url("js/iepngfix/iepngfix.htc");}
+</style>
+<script src="js/snow.js" type="text/javascript"></script>
+<script>createSnow("images/", 60);</script>
+</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="vip视频在线解析-全球领先的在线视频网站-海量正版高清视频在线免费观看">
+<meta name="description" content="vip视频在线解析-全球领先的在线视频网站-海量正版高清视频在线免费观看">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>91云播-官方网站</title>
+        <!-- <link href="Css/7a9a8f15e074377c.css" rel="stylesheet" info="pcrest.css">  -->
+		    <!-- Loading Bootstrap -->
+    <link href="dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="dist/css/flat-ui.css" rel="stylesheet">
+		
+
+<link href="2/newcommons.css" rel="stylesheet" type="text/css"/>
+        <style type="text/css">@font-face{font-family:"tf";src:url("/tfboys.360.cn/m/f/tf.eot");src:url("/tfboys.360.cn/m/f/tf.eot?#qiwoo-font") format("embedded-opentype"),url("/tfboys.360.cn/m/f/tf.woff") format("woff"),url("/tfboys.360.cn/m/f/tf.ttf") format("truetype"),url("/tfboys.360.cn/m/f/tf.svg") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:"\601d\6e90\9ed1\4f53\52a9\624b\7248";font-style:normal;font-weight:normal;src:url('sycn.eot');src:url('sycn.eot?#iefix') format('embedded-opentype'),url(sycn.ttf) format('truetype')}
+		body{font-family:'Microsoft YaHei','\5fae\8f6f\96c5\9ed1'}
+		.head{background:#60c5c4;height:60px;position:fixed;width:100%;min-width:1068px;top:0;box-shadow:0 0 2px rgba(0,0,0,.1);z-index:1001}
+		.head .bg-mask{position:absolute;width:100%;height:100%;background:#fff;opacity:.1;filter:alpha(opacity=10);-ms-filter:"alpha(opacity=10)"}
+		.zslogo{position:absolute;top:0;left:0;margin:13px 0 0 35px}
+		.head .navList{position:absolute;right:0;top:0}
+		.link{padding:0 15px;display:block;height:60px;float:left}
+		.link span{display:inline-block;height:60px;color:#fff;font-size:16px;line-height:60px}
+		.link,.link:hover{text-decoration:none}
+		.link-app{padding:0;margin-left:0;margin-right:36px;position:relative;text-align:center;width:102px}
+		.link-app img,.link-app span{vertical-align:middle;margin-right:5px}
+		.link-app .icon-arrow{display:inline-block;*display:inline;*zoom:1;width:9px;height:5px;background:url(Images/tip.png) no-repeat;margin-right:0}
+		.link-app:hover{border-radius:0;background-color:rgba(0,0,0,.4);height:180px}
+		.link-app .qrcode{display:none}.link-app:hover .qrcode{display:block}
+		.link-app:hover .qrcode img{margin-right:0;margin-top:3px}
+		.link-app:hover .icon-arrow{background-position:0 -5px}
+		.head .content .cur span{background:url(Images/cur.png) 0 0 repeat-x}
+		.body{margin-top:60px;background:#4ebebd;position:relative}
+		.body .bg{padding-top:448px}
+		.bg_c{height:168px;background:url(Images/cover.png) center bottom no-repeat}
+		.bg_f{height:200px;background:#fff}
+		.head,.body{-ms-transition:background 1s linear;-o-transition:background 1s linear;-moz-transition:background 1s linear;-webkit-transition:background 1s linear;transition:background 1s linear}
+		.content{position:absolute;width:1068px;left:50%;margin-left:-534px;top:0}
+	
+		.lisContainer{position:absolute;width:381px;height:59px;top:449px;left:589px;text-align:center;padding-top:22px}
+		.li{display:inline-block;width:16px;height:16px;background:url(Images/lis.png) 0 0 no-repeat;margin-right:18px;position:relative}
+		.li-gray{margin-right:0}
+		.li em{width:100%;height:100%;background:url(Images/t0154f6955a6485cd7f.png) 0 0 no-repeat;position:absolute;top:0;left:0;display:none}
+		.lisContainer .cur em{display:block}
+		.li-green{background-position:0 0}
+		.li-blue{background-position:-33px 0}
+		.li-pink{background-position:-67px 0}
+		.li-yellow{background-position:-101px 0}
+		.li-purple{background-position:-134px 0}
+		.li-red{background-position:-168px 0}
+		.li-gray{background-position:-201px 0}
+
+	
+		.containe{
+			text-align: center;
+		}
+		#url{
+			width:600px; 
+			height:50px; 
+			border-color:#54C754;
+			display: inline-block;
+			margin: 0px;
+		}
+		#doplayers{
+			margin: 0px;
+			width:150px;
+			height: 50px;
+			display: inline-block;
+			
+		}
+		#doplayers1{
+			margin: 0px;
+			width:150px;
+			height: 50px;
+			display: inline-block;
+			
+		}		
+		.fromer{
+			text-align: center;
+			padding-top: 2px;
+			
+		}
+
+
+		</style>
+
+		<script>
+	function test_post() {
+	var testform=document.getElementById("testform");
+	testform.action="player.php";
+	testform.submit();
+	}
+</script>
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+	</head>
+    <body>
+        <div class="page">
+            <div class="head js-bg-ele">
+                <em class="bg-mask"></em>
+                <div class="content">
+                    <img src="mages/aaa.png" alt="" class="zslogo">
+
+                    <div class="navList">
+                        <a href="#nogo" class="link cur"><span>网站主页</span></a>
+						<a href="/yue.html" class="link" target="_blank"><span>在线听歌</span></a>
+						<a href="http://so.iqiyi.com/so/q_我不是妖怪?source=hot&refersource=lib&sr=1073732166378" class="link" target="_blank"><span>视频搜索</span></a>
+<!--                         <a href="/app.html" class="link" target="_blank"><span>APP下载</span></a> -->
+						<a href="/gy.html" class="link" target="_blank"><span>更新日志</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="body js-bg-ele">
+                <div class="bg">
+                    <div class="bg">			
+                </div>	
+                <div class="content">
+				<br /> <p />
+                   <!--   -->
+					<div class="containe">
+<input name="doplayers" type="button" id="doplayers1" class="btn btn-block btn-lg btn-success" value="会员视频地址:">					
+					<!--<form id="testform" method="post">-->
+						<!--
+						<div class="col-xs-6">
+						  <div class="form-group has-success">
+							<input type="text" name="url" value="" placeholder="在这里输入会员视频地址....." class="form-control" />
+							<span class="input-icon fui-check-inverted"></span>
+						  </div>
+						</div>
+						
+						<div class="col-xs-2">
+						  <a href="#fakelink" class="btn btn-block btn-lg btn-success" name="submit" onclick="test_post()">播放</a>
+						</div>
+					-->
+					<!--<div class="fromer">-->
+          <input name="url" id="url" type="text" class="form-control" value="http://v.yinyuetai.com/video/2542011"style="
+    padding-top: 4px;
+">		  
+		  <input name="doplayers" type="button" id="doplayers" class="btn btn-block btn-lg btn-success"  value="立即播放">
+          
+		</div>
+		<br/>
+      
+    <div id="ckvip" style="position:relative;z-index:1000">
+	<iframe border="0" id="vplay" name="vplay" src="http://v.yinyuetai.com/video/2542011"" style="width: 1010px; height: 570px" allowfullscreen="" allowtransparency="" frameborder="0">
+</iframe>
+	</div>
+					 
+
+					
+<script type="text/javascript" src="js/swfobjects.js"></script>
+<script type="text/javascript" src="js/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/09298b106398437d8395517800b5ea7d.js"></script>
+<script type="text/javascript">
+players();
+$("#doplayers").bind("click", function() {
+    players()
+});
+
+function players() {
+	var a = $('#url').val();
+    if ($('#url').val() == "") {
+        alert('请输入视频网站网址！');
+        $('#url').focus();
+        return (false)
+    }
+	document.getElementById("vplay").src="https://api.47ks.com/webcloud/?v=" + a;
+	//document.getElementById("vplay").src="http://api.aikantv.cc/index.php?url=" + a;
+}
+
+function players2() {
+    var a = $('#url').val();
+    if ($('#url').val() == "") {
+        alert('请输入视频网站网址！');
+        $('#url').focus();
+        return (false)
+    }
+    var b = {
+      f: 'https://api.47ks.com/webcloud/?v=' + a,
+        c: 0,
+        s: 2,
+        p: 1,
+        b: 1,
+    };
+    var c = {
+        bgcolor: '#FFF',
+        allowFullScreen: true,
+        allowScriptAccess: 'always',
+        wmode: 'transparent'
+    };
+  var d = ['https://api.47ks.com/webcloud/?v=' + a + '&mobile'];
+    var e = ['iPad', 'iPhone', 'ios', 'android+false', 'msie10+false'];
+    CKobject.embed('player/player.swf', 'ckplays', 'ckplayer_mains', '100%', '500', false, b, d, c)
+}
+
+function addhtml52() {
+    if (CKobject.isHTML5()) {
+        support = ['all'];
+        CKobject._K_('moveid').innerHTML = '';
+        CKobject.embedHTML5('moveid', 'ckplayer_a1', '100%', 530, video, flashvars, support)
+    } else {
+        addflash()
+    }
+}
+</script>
+
+					<br /> <p />
+         <p><font color="#FFFFFF">点击下面 ☟ 视频图标,可进入会员视频地址</font></p>
+					<div id="ckplays"></div> 
+						<div class="logos_lists"  style="margin-left:30px;">					
+							<dl>
+								<a target="_blank" href="http://vip.iqiyi.com/?fc=b4df9faa4b31aec4"><img src="./2/aqylogo.png" alt="" ></a>							
+								<dd>爱奇艺视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://film.qq.com"><img src="./2/qqlogo.png" alt="" /></a>
+								<dd>腾讯视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://vip.youku.com"><img src="./2/youkulogo.png" alt="" /></a>
+								<dd>优酷视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://vip.tudou.com/index.html"><img src="./2/tudoulogo.png" alt="" /></a>
+								<dd>土豆视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.56.com"><img src="./2/56logo.png" alt="" /></a>
+								<dd>56视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://movie.ku6.com"><img src="./2/ku6logo.png" alt="" /></a>
+								<dd>酷6视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://yuanxian.le.com/?ref=ym0101"><img src="./2/letvlogo.png" alt="" /></a>
+								<dd>乐视TV视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.fun.tv"><img src="./2/fxw.png" alt="" /></a>
+								<dd>风行网</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.mgtv.com/vip/"><img src="./2/hunantvlogo.png" alt="" /></a>
+								<dd>芒果TV视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://tv.sohu.com"><img src="./2/sohulogo.png" alt="" /></a>
+								<dd>搜狐视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.pptv.com"><img src="./2/pps.png" alt="" /></a>
+								<dd>PPTV</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.kankan.com"><img src="./2/xckk.png" alt="" /></a>
+								<dd>响巢看看</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.baofeng.com"><img src="./2/bfyy.png" alt="" /></a>
+								<dd>暴风影音</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.1905.com"><img src="./2/m1905.png" alt="" /></a>
+								<dd>m1905电影网</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.yinyuetai.com"><img src="./2/yinyuetailogo.png" alt="" /></a>
+								<dd>音悦台MV</dd>							
+							</dl>
+						</div>
+					</div>
+<br/>
+<br/>
+<div style=" width:960px; margin:0 auto; text-align:center; margin-top:100px">
+<span id="span_dt_dt"></span>
+</div>
+<span id="sitetime"></span>
+<script>
+    function secondToDate(second) {
+        if (!second) {
+            return 0;
+        }
+        var time = new Array(0, 0, 0, 0, 0);
+        if (second >= 365 * 24 * 3600) {
+            time[0] = parseInt(second / (365 * 24 * 3600));
+            second %= 365 * 24 * 3600;
+        }
+        if (second >= 24 * 3600) {
+            time[1] = parseInt(second / (24 * 3600));
+            second %= 24 * 3600;
+        }
+        if (second >= 3600) {
+            time[2] = parseInt(second / 3600);
+            second %= 3600;
+        }
+        if (second >= 60) {
+            time[3] = parseInt(second / 60);
+            second %= 60;
+        }
+        if (second > 0) {
+            time[4] = second;
+        }
+        return time;
+    }
+</script>
+<script type="text/javascript" language="javascript">
+    function setTime() {
+        // 博客创建时间秒数，时间格式中，月比较特殊，是从0开始的，所以想要显示5月，得写4才行，如下
+        var create_time = Math.round(new Date(Date.UTC(2016, 9, 28, 12, 06, 0))
+                .getTime() / 1000);
+        // 当前时间秒数,增加时区的差异
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+                + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+                + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }
+    setInterval(setTime, 1000);
+</script>
+   91云播至今已运行：<span id="htmer_time" style="color: red;"></span>
+</div>   
+<script src="http://count.yuzhou.net.cn/cf.asp?username=qq1091860665"></script>
+         <p><font color="#FFFFFF">Copyright © 2016-2017 91 QQ:345127857 ® 版权所有</font></p>			
+                    <div class="lisContainer js-lisContainer" style="display:none;">
+                        <a href="#nogo" class="li li-green cur" data-color="5596d7"><em></em></a>
+                        <a href="#nogo" class="li li-blue" data-color="ffa532"><em></em></a>
+                        <a href="#nogo" class="li li-pink" data-color="46c8c8"><em></em></a>
+                        <a href="#nogo" class="li li-yellow" data-color="dc5a5a"><em></em></a>
+                        <!--
+                        <a href="#nogo" class="li li-purple" data-color="7e64c1"><em></em></a>
+                        <a href="#nogo" class="li li-red" data-color="dd5758"><em></em></a>
+                        <a href="#nogo" class="li li-gray" data-color="4d5b87"><em></em></a>
+                        -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      
+        
+        <!-- copyright -->
+		   <script src="dist/js/vendor/jquery.min.js"></script>
+    <script src="dist/js/flat-ui.min.js"></script>
+    <script src="dist/js/application.js"></script>
+		
+        <script src="Scripts/172.js"></script>
+<script>(function(){function e(e){return y(u(m(e),e.length*S))}function t(e){return b(u(m(e),e.length*S))}function n(e){return g(u(m(e),e.length*S))}function r(e,t){return y(p(e,t))}function i(e,t){return b(p(e,t))}function s(e,t){return g(p(e,t))}function o(){return e("abc")=="900150983cd24fb0d6963f7d28e17f72"}function u(e,t){e[t>>5]|=128<<t%32,e[(t+64>>>9<<4)+14]=t;var n=1732584193,r=-271733879,i=-1732584194,s=271733878;for(var o=0;o<e.length;o+=16){var u=n,a=r,p=i,v=s;n=f(n,r,i,s,e[o+0],7,-680876936),s=f(s,n,r,i,e[o+1],12,-389564586),i=f(i,s,n,r,e[o+2],17,606105819),r=f(r,i,s,n,e[o+3],22,-1044525330),n=f(n,r,i,s,e[o+4],7,-176418897),s=f(s,n,r,i,e[o+5],12,1200080426),i=f(i,s,n,r,e[o+6],17,-1473231341),r=f(r,i,s,n,e[o+7],22,-45705983),n=f(n,r,i,s,e[o+8],7,1770035416),s=f(s,n,r,i,e[o+9],12,-1958414417),i=f(i,s,n,r,e[o+10],17,-42063),r=f(r,i,s,n,e[o+11],22,-1990404162),n=f(n,r,i,s,e[o+12],7,1804603682),s=f(s,n,r,i,e[o+13],12,-40341101),i=f(i,s,n,r,e[o+14],17,-1502002290),r=f(r,i,s,n,e[o+15],22,1236535329),n=l(n,r,i,s,e[o+1],5,-165796510),s=l(s,n,r,i,e[o+6],9,-1069501632),i=l(i,s,n,r,e[o+11],14,643717713),r=l(r,i,s,n,e[o+0],20,-373897302),n=l(n,r,i,s,e[o+5],5,-701558691),s=l(s,n,r,i,e[o+10],9,38016083),i=l(i,s,n,r,e[o+15],14,-660478335),r=l(r,i,s,n,e[o+4],20,-405537848),n=l(n,r,i,s,e[o+9],5,568446438),s=l(s,n,r,i,e[o+14],9,-1019803690),i=l(i,s,n,r,e[o+3],14,-187363961),r=l(r,i,s,n,e[o+8],20,1163531501),n=l(n,r,i,s,e[o+13],5,-1444681467),s=l(s,n,r,i,e[o+2],9,-51403784),i=l(i,s,n,r,e[o+7],14,1735328473),r=l(r,i,s,n,e[o+12],20,-1926607734),n=c(n,r,i,s,e[o+5],4,-378558),s=c(s,n,r,i,e[o+8],11,-2022574463),i=c(i,s,n,r,e[o+11],16,1839030562),r=c(r,i,s,n,e[o+14],23,-35309556),n=c(n,r,i,s,e[o+1],4,-1530992060),s=c(s,n,r,i,e[o+4],11,1272893353),i=c(i,s,n,r,e[o+7],16,-155497632),r=c(r,i,s,n,e[o+10],23,-1094730640),n=c(n,r,i,s,e[o+13],4,681279174),s=c(s,n,r,i,e[o+0],11,-358537222),i=c(i,s,n,r,e[o+3],16,-722521979),r=c(r,i,s,n,e[o+6],23,76029189),n=c(n,r,i,s,e[o+9],4,-640364487),s=c(s,n,r,i,e[o+12],11,-421815835),i=c(i,s,n,r,e[o+15],16,530742520),r=c(r,i,s,n,e[o+2],23,-995338651),n=h(n,r,i,s,e[o+0],6,-198630844),s=h(s,n,r,i,e[o+7],10,1126891415),i=h(i,s,n,r,e[o+14],15,-1416354905),r=h(r,i,s,n,e[o+5],21,-57434055),n=h(n,r,i,s,e[o+12],6,1700485571),s=h(s,n,r,i,e[o+3],10,-1894986606),i=h(i,s,n,r,e[o+10],15,-1051523),r=h(r,i,s,n,e[o+1],21,-2054922799),n=h(n,r,i,s,e[o+8],6,1873313359),s=h(s,n,r,i,e[o+15],10,-30611744),i=h(i,s,n,r,e[o+6],15,-1560198380),r=h(r,i,s,n,e[o+13],21,1309151649),n=h(n,r,i,s,e[o+4],6,-145523070),s=h(s,n,r,i,e[o+11],10,-1120210379),i=h(i,s,n,r,e[o+2],15,718787259),r=h(r,i,s,n,e[o+9],21,-343485551),n=d(n,u),r=d(r,a),i=d(i,p),s=d(s,v)}return Array(n,r,i,s)}function a(e,t,n,r,i,s){return d(v(d(d(t,e),d(r,s)),i),n)}function f(e,t,n,r,i,s,o){return a(t&n|~t&r,e,t,i,s,o)}function l(e,t,n,r,i,s,o){return a(t&r|n&~r,e,t,i,s,o)}function c(e,t,n,r,i,s,o){return a(t^n^r,e,t,i,s,o)}function h(e,t,n,r,i,s,o){return a(n^(t|~r),e,t,i,s,o)}function p(e,t){var n=m(e);n.length>16&&(n=u(n,e.length*S));var r=Array(16),i=Array(16);for(var s=0;s<16;s++)r[s]=n[s]^909522486,i[s]=n[s]^1549556828;var o=u(r.concat(m(t)),512+t.length*S);return u(i.concat(o),640)}function d(e,t){var n=(e&65535)+(t&65535),r=(e>>16)+(t>>16)+(n>>16);return r<<16|n&65535}function v(e,t){return e<<t|e>>>32-t}function m(e){var t=Array(),n=(1<<S)-1;for(var r=0;r<e.length*S;r+=S)t[r>>5]|=(e.charCodeAt(r/S)&n)<<r%32;return t}function g(e){var t="",n=(1<<S)-1;for(var r=0;r<e.length*32;r+=S)t+=String.fromCharCode(e[r>>5]>>>r%32&n);return t}function y(e){var t=w?"0123456789ABCDEF":"0123456789abcdef",n="";for(var r=0;r<e.length*4;r++)n+=t.charAt(e[r>>2]>>r%4*8+4&15)+t.charAt(e[r>>2]>>r%4*8&15);return n}function b(e){var t="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",n="";for(var r=0;r<e.length*4;r+=3){var i=(e[r>>2]>>8*(r%4)&255)<<16|(e[r+1>>2]>>8*((r+1)%4)&255)<<8|e[r+2>>2]>>8*((r+2)%4)&255;for(var s=0;s<4;s++)r*8+s*6>e.length*32?n+=E:n+=t.charAt(i>>6*(3-s)&63)}return n}var w=0,E="",S=8;window.hex_md5=e})()</script>
+<script>jQuery.easing.jswing=jQuery.easing.swing,jQuery.extend(jQuery.easing,{def:"easeOutQuad",swing:function(e,t,n,r,i){return jQuery.easing[jQuery.easing.def](e,t,n,r,i)},easeOutQuint:function(e,t,n,r,i){return r*((t=t/i-1)*t*t*t*t+1)+n}})</script>
+<script>/*!
+ * jQuery Cookie Plugin v1.4.1
+ * https://github.com/carhartl/jquery-cookie
+ *
+ * Copyright 2006, 2014 Klaus Hartl
+ * Released under the MIT license
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):typeof exports=="object"?module.exports=e(require("jquery")):e(jQuery)})(function(e){function t(e){return u.raw?e:encodeURIComponent(e)}function n(e){return u.raw?e:decodeURIComponent(e)}function r(e){return t(u.json?JSON.stringify(e):String(e))}function i(e){e.indexOf('"')===0&&(e=e.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return e=decodeURIComponent(e.replace(o," ")),u.json?JSON.parse(e):e}catch(t){}}function s(t,n){var r=u.raw?t:i(t);return e.isFunction(n)?n(r):r}var o=/\+/g,u=e.cookie=function(i,o,a){if(arguments.length>1&&!e.isFunction(o)){a=e.extend({},u.defaults,a);if(typeof a.expires=="number"){var f=a.expires,l=a.expires=new Date;l.setMilliseconds(l.getMilliseconds()+f*864e5)}return document.cookie=[t(i),"=",r(o),a.expires?"; expires="+a.expires.toUTCString():"",a.path?"; path="+a.path:"",a.domain?"; domain="+a.domain:"",a.secure?"; secure":""].join("")}var c=i?undefined:{},h=document.cookie?document.cookie.split("; "):[],p=0,d=h.length;for(;p<d;p++){var v=h[p].split("="),m=n(v.shift()),g=v.join("=");if(i===m){c=s(g,o);break}!i&&(g=s(g))!==undefined&&(c[m]=g)}return c};u.defaults={},e.removeCookie=function(t,n){return e.cookie(t,"",e.extend({},n,{expires:-1})),!e.cookie(t)}})</script>
+        <script type="text/javascript">function updateDownloadUrl(){$.ajax({url:"/openbox.mobilem.360.cn/url/gen",data:{frm:"home",_:Math.random()},dataType:"jsonp",success:function(e){if(!e||e.code!=0)return;e=e.data;var t=$(".download2pc"),n=$(".download2pc-info"),r=$(".download2pcBeta"),i=$(".download2pcBeta-info");t.attr("href",e.std),r.attr("href",e.beta5)}})}function pageInit(){initBgRunner()}function bindEvents(){function n(){e.show(),t.show()}function r(){e.hide(),t.hide()}$links=$(".head .link"),$links.mouseenter(function(){var e=$(this);$links.removeClass("cur"),e.is(".js-link-app")||e.addClass("cur")}).mouseleave(function(){$links.removeClass("cur"),$links.eq(0).addClass("cur")});var e=$(".js-mask"),t=$(".js-popup");$(".js-close").click(function(e){e.preventDefault(),r()}),$(".action-phone").click(function(e){e.preventDefault(),n()})}(function(){function u(e){t=e%s;var n=i.eq(t),r=n.data("color");o.css("background-color","#"+r),i.removeClass("cur"),n.addClass("cur")}function a(){clearInterval(e),e=setInterval(function(){u(t+1)},n)}var e=null,t=0,n=8e3,r=$(".js-lisContainer"),i=r.find(".li"),s=i.length,o=$(".js-bg-ele");$(".js-lisContainer .li").click(function(e){e.preventDefault();var n=$(this);t=n.index(),u(t),a()}),window.initBgRunner=a})();var Clovers={play:function(){this.$clovers.each(function(e,t){var n=$(this),r=76,i=96;n.css({left:0,opacity:1,bottom:0}).stop(),n.animate({left:r*Math.random(),bottom:"100px",opacity:"0"},{duration:1500+1e3*Math.random(),easing:"easeOutQuint"})})},init:function(){this.$count=$(".js-count"),this.$mainBtn=$(".js-download-pop"),this.$cloverContainer=$(".js-clover"),this.$clovers=this.$cloverContainer.find("span"),this.count="---",this.getCounts(),this.bindEvents()},getCounts:function(){var e="/openbox.mobilem.360.cn/Stat/fiveme",t={_:(new Date).getTime()},n=this;this.requestTimer&&clearTimeout(this.requestTimer),$.ajax({url:e,data:t,dataType:"jsonp",success:function(e){n.count=e.data.download_times,n.updateCount(),n.requestTimer=setTimeout(function(){Clovers.getCounts()},1500+500*Math.random())}})},addCounts:function(){var e="/openbox.mobilem.360.cn/Stat/fivemeCallback",t=this,n=(new Date).getTime(),r={time:n,sign:hex_md5(n+":zs_tfboys")};$.ajax({url:e,data:r,dataType:"jsonp",success:function(e){}})},updateCount:function(){if(this._prevCount&&this.count==this._prevCount)return;this.$count.html(this.count+"\u6b21"),this._prevCount=this.count,this.play()},bindEvents:function(){var e=this;this.$mainBtn.on("click",function(t){$.cookie("download_tfboy")||(e.count+=1,e.updateCount(),e.addCounts()),$.cookie("download_tfboy","1",{expires:1})})}};$(function(){pageInit(),Clovers.init(),bindEvents()})</script>
+<script>window.g_version_data={v5:{date:"2016-06-29",size:"6.26MB",title:"\u5b89\u5353\u7248V5.1.50beta",version:"V5.1.50beta"},v3:{date:"2016-06-22",size:"5.98MB",title:"\u5b89\u5353\u7248V5.1.38",version:"V5.1.38"}},$(".js-v3-version").html(g_version_data.v3.version),$(".js-v3-date").html(g_version_data.v3.date),$(".js-v3-size").html(g_version_data.v3.size),$(".js-v5-version").html(g_version_data.v5.version),$(".js-v5-date").html(g_version_data.v5.date),$(".js-v5-size").html(g_version_data.v5.size)</script>
+<script src="Scripts/2edd36ee.js"></script>
+<script>monitor.setProject("shoujizhushou_help").setUrl("/tfboys.360.cn/").getTrack().getClickAndKeydown()</script>
+</footer>
+    </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery实现鼠标划过即可显示(隐藏)qq在线客服代码</title>
+<style type="text/css">
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "宋体";}
+/* suspend */
+.suspend{width:40px;height:198px;position:fixed;top:200px;right:0;overflow:hidden;z-index:9999;}
+.suspend dl{width:120px;height:198px;border-radius:25px 0 0 25px;padding-left:40px;box-shadow:0 0 5px #e4e8ec;}
+.suspend dl dt{width:40px;height:198px;background:url(http://demo.lanrenzhijia.com/2014/service0823/images/suspend.png);position:absolute;top:0;left:0;cursor:pointer;}
+.suspend dl dd.suspendQQ{width:120px;height:85px;background:#ffffff;}
+.suspend dl dd.suspendQQ a{width:120px;height:85px;display:block;background:url(http://demo.lanrenzhijia.com/2014/service0823/images/suspend.png) -40px 0;overflow:hidden;}
+.suspend dl dd.suspendTel{width:120px;height:112px;background:#ffffff;border-top:1px solid #e4e8ec;}
+.suspend dl dd.suspendTel a{width:120px;height:112px;display:block;background:url(http://demo.lanrenzhijia.com/2014/service0823/images/suspend.png) -40px -86px;overflow:hidden;}
+* html .suspend{position:absolute;left:expression(eval(document.documentElement.scrollRight));top:expression(eval(document.documentElement.scrollTop+200))}
+</style>
+</head>
+<body>
+
+<!-- 代码部分begin -->
+<div class="suspend">
+	<dl>
+		<dt class="IE6PNG"></dt>
+		<dd class="suspendQQ"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1091860665&site=qq&menu=yes"></a></dd>
+		<dd class="suspendTel"><a href="javascript:void(0);"></a></dd>
+	</dl>
+</div>
+<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+<script type="text/javascript">           
+$(function(){
+	$(".suspend").mouseover(function() {
+        $(this).stop();
+        $(this).animate({width: 160}, 400);
+    });
+    $(".suspend").mouseout(function() {
+        $(this).stop();
+        $(this).animate({width: 40}, 400);
+    });
+});
+</script>
+<!-- 代码部分end -->
+
+</body>
+</html>	
+<!-- jQuery --> <script src="js/jquery.min.js"></script> <!-- jQuery Easing --> <script src="js/jquery.easing.1.3.js"></script> <!-- Bootstrap --> <script src="js/bootstrap.min.js"></script> <!-- Waypoints --> <script src="js/jquery.waypoints.min.js"></script> <!-- Owl Carousel --> <script src="js/owl.carousel.min.js"></script> <!-- For demo purposes only styleswitcher ( You may delete this anytime ) --> <script src="js/jquery.style.switcher.js"></script> <script>    $(function(){        $('#colour-variations ul').styleSwitcher({            defaultThemeId: 'theme-switch',            hasPreview: false,            cookie: {                expires: 30,                isManagingLoad: true            }        });         $('.option-toggle').click(function() {            $('#colour-variations').toggleClass('sleep');        });    });    </script> <!-- End demo purposes only --> <!-- Main JS (Do not remove) --> <script src="js/main.js"></script> <!-- Add fancyBox main JS and CSS files --> <script src="js/jquery.fancybox.js?v=2.1.4" type="text/javascript"></script>
+<link href="css/jquery.fancybox.css?v=2.1.4" media="screen" rel="stylesheet" type="text/css" />
+<!-- fancybox_app --> <script src="js/fancybox_app.js" type="text/javascript"></script> <!-- Add mousewheel plugin (this is optional) --> <script src="js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+<body>
+</html>
