@@ -184,7 +184,7 @@ function players() {
         $('#url').focus();
         return (false)
     }
-	document.getElementById("vplay").src="http://www.gijepyhi.com/gg.php?n=admin&url=" + a;
+	document.getElementById("vplay").src="https://api.47ks.com/webcloud/?v=" + a;
 	//document.getElementById("vplay").src="http://api.aikantv.cc/index.php?url=" + a;
 }
 
@@ -196,7 +196,7 @@ function players2() {
         return (false)
     }
     var b = {
-      f: 'http://www.gijepyhi.com/gg.php?n=admin&url=' + a,
+      f: 'https://api.47ks.com/webcloud/?v=' + a,
         c: 0,
         s: 2,
         p: 1,
@@ -208,7 +208,7 @@ function players2() {
         allowScriptAccess: 'always',
         wmode: 'transparent'
     };
-  var d = ['http://www.gijepyhi.com/gg.php?n=admin&url=' + a + '&mobile'];
+  var d = ['https://api.47ks.com/webcloud/?v=' + a + '&mobile'];
     var e = ['iPad', 'iPhone', 'ios', 'android+false', 'msie10+false'];
     CKobject.embed('player/player.swf', 'ckplays', 'ckplayer_mains', '100%', '500', false, b, d, c)
 }
