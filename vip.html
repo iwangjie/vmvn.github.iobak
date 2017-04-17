@@ -7,13 +7,9 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <style type="text/css">
-        *{ margin:0; padding:0;}
-        body{height:100%; width:100%; margin:0 auto; background: url(nihong.jpg)  center 100px; position:relative;}
-        .bottom{ width:100%;height:100px; background:red; position: absolute;left:0;top:0;}
-    </style>
-    <body>
-    
+    <body style="height:100%;width:100%">
+        <div id="main" style="height:100%;width:100%">
+        </div>
     </body>
     <script>
         function getQueryString(name) { 
@@ -24,13 +20,13 @@
 
         //获取参数
         var url = getQueryString("url");
-        if (url !== null || url !== undefined || url !== '') { 
-            //输入地址为空，播放默认视频
-             alert("输入地址为空，将播放一段默认视频！");
-             $("body").html("<iframe src='http://www.gijepyhi.com/gg.php?n=admin&url=http://www.iqiyi.com/v_19rrb8qeok.html' height='100%' width='100% frameborder='0'></iframe>");
-        }else{
+        if (url !== null && url !== undefined && url !== '') { 
             //加载ifreme插件
-           $("body").html("<iframe src='http://www.gijepyhi.com/gg.php?n=admin&url="+url+"' height='100%' width='100% frameborder='0'></iframe>");
+           $("body").html("<iframe src='http://www.gijepyhi.com/gg.php?n=admin&url="+url+"' height='100%' width='100% frameborder='0'></iframe>");     
+        }else{
+           //输入地址为空，播放默认视频
+           alert("输入地址为空，将播放一段默认视频！");
+           $("#main").html("<iframe src='http://www.gijepyhi.com/gg.php?n=admin&url=http://www.iqiyi.com/v_19rrb8qeok.html' height='100%' width='100% frameborder='0'></iframe>");
         } 
     </script>
 </html>
