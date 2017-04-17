@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+    <body>
+    
+    </body>
+    <script>
+        function getQueryString(name) { 
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+        var r = window.location.search.substr(1).match(reg); 
+        if (r != null) return unescape(r[2]); return null; 
+        } 
+
+        //获取参数
+        var url = getQueryString("url");
+        if (url !== null || url !== undefined || url !== '') { 
+            //输入地址为空，播放默认视频
+            alert("输入地址为空，将播放一段默认视频！")
+        }else{
+            //加载ifreme插件
+            $("body").html().append('<iframe src="http://www.gijepyhi.com/gg.php?n=admin&url='+url+' height="100%" width="100%" frameborder="0"></iframe>');
+        } 
+    </script>
+</html>
