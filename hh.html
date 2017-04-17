@@ -22,7 +22,7 @@
             width = $(window).width();     //获取浏览器可是窗口的高度
             $('body').css('height',height);    //赋值给页面的高度属性
              $('body').css('width',width);  
-        }
+        }   
         AdaptHeight();
         //获取参数
         var url = getQueryString("url");
@@ -34,6 +34,15 @@
            alert("输入地址为空，将播放一段默认视频！");
            $("#main").html("<iframe src='https://api.47ks.com/webcloud/?v=http://www.iqiyi.com/v_19rrb8qeok.html' height='100%' width='100% frameborder='0'></iframe>");
         } 
+
+        //判断是否是插件播放
+        var play = getQueryString("play");
+        if(play!="crx"){
+            //提示是否下载插件
+            if(confirm("是否安装腿湿湿视频解析插件，以后就不用输入地址啦~~")){
+                window.open = "https://vmvn.github.io/";
+            }
+        }
         $("iframe").attr('frameborder','0')
     </script>
 </html>
