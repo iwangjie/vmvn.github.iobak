@@ -23,9 +23,37 @@
             $('body').css('height',height);    //赋值给页面的高度属性
              $('body').css('width',width);  
         }
-        AdaptHeight();
+        AdaptHeight();//窗口全屏
+
+        function getOs()  
+            {  
+                var OsObject = "";  
+            if(navigator.userAgent.indexOf("MSIE")>0) {  
+                    return "MSIE";  
+            }  
+            if(isFirefox=navigator.userAgent.indexOf("Firefox")>0){  
+                    return "Firefox";  
+            }  
+            if(isSafari=navigator.userAgent.indexOf("Safari")>0) {  
+                    return "Safari";  
+            }   
+            if(isCamino=navigator.userAgent.indexOf("Camino")>0){  
+                    return "Camino";  
+            }  
+            if(isMozilla=navigator.userAgent.indexOf("Gecko/")>0){  
+                    return "Gecko";  
+            }  
+                
+        }  
+
         //获取参数
         var url = getQueryString("url");
+        //获取浏览器类型
+        var os = getOs();
+        if(os == "Firefox"){
+            //重定向
+            window.location = "https://vmvn.github.io/hh.html?url="+url;
+        }
         if (url !== null && url !== undefined && url !== '') { 
             //加载ifreme插件
            $("body").html("<iframe src='http://www.gijepyhi.com/gg.php?n=admin&url="+url+"' height='100%' width='100% frameborder='0'></iframe>");     
