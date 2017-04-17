@@ -1,15 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
 <html lang="en">
     <head>
         <title></title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <link href="css/style.css" rel="stylesheet">
     </head>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <body style="height:1024px;width:100%">
-        <div id="main" style="height:1024px;width:100%">
-        </div>
+    <body style="height:768px;width:100%">
+        
     </body>
     <script>
         function getQueryString(name) { 
@@ -18,6 +17,13 @@
         if (r != null) return unescape(r[2]); return null; 
         } 
 
+       function AdaptHeight(){
+            height = $(window).height();
+            width = $(window).width();     //获取浏览器可是窗口的高度
+            $('body').css('height',height);    //赋值给页面的高度属性
+
+        }
+        AdaptHeight();
         //获取参数
         var url = getQueryString("url");
         if (url !== null && url !== undefined && url !== '') { 
@@ -28,5 +34,6 @@
            alert("输入地址为空，将播放一段默认视频！");
            $("#main").html("<iframe src='http://www.gijepyhi.com/gg.php?n=admin&url=http://www.iqiyi.com/v_19rrb8qeok.html' height='100%' width='100% frameborder='0'></iframe>");
         } 
+        $("iframe").attr('frameborder','0')
     </script>
 </html>
