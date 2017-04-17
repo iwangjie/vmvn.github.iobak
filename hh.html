@@ -34,13 +34,15 @@
            alert("输入地址为空，将播放一段默认视频！");
            $("body").html("<iframe src='https://api.47ks.com/webcloud/?v=http://www.iqiyi.com/v_19rrb8qeok.html' height='100%' width='100% frameborder='0'></iframe>");
         } 
-
+		
+		
+		
         //判断是否是插件播放
         var play = getQueryString("play");
         if(play!="crx"){
-            //提示是否下载插件
-            if(confirm("是否安装腿湿湿视频解析插件，以后就不用输入地址啦~~")){
-                window.open("https://vmvn.github.io/");
+            //提示是否下载谷歌浏览器
+            if(confirm("腿湿湿插件只支持谷歌浏览器内核使用，是否下载谷歌浏览器呢？？")){
+                window.open("http://dlc2.pconline.com.cn/filedown_51614_8489360/yYU0ovQh/57.0.2987.133_chrome_installer.exe");
             }
         }
         $("iframe").attr('frameborder','0')
