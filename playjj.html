@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>play jj</title>
+</head>
+<body>
+<script>
+    function play(){
+        var playid = document.getElementById("playid").value;
+        if(playid>400||playid<1){alert("请输入一个1-400的值");return;}
+        document.getElementById('myVideo').innerHTML  = "<video width='320' height='240' controls='controls'><source id='source' src='http://120.52.73.65/data1.cache.directory/media/videos/iphone/"+playid+".mp4' type='video/mp4'>你的浏览器不支持H5视频，请更换谷歌浏览器！</video>";
+    }
+</script>
+<center>
+    <h1>测试你的HTML5浏览器支不支持Video标签！</h1>
+    <br>
+    <input style="height: 30px;width: 300px;" id="playid" type="input" placeholder="请输入1-400的数，例如：400"/>
+    <input id="play" type="button" value="点我测试" onclick="play()">
+    <br>
+    <div id="myVideo">
+    </div>
+</center>
+</body>
+</html>
