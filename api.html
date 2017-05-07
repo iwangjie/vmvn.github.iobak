@@ -9,66 +9,7 @@
         <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
  <script type="text/javascript" src="./91yb/ckplayer/ckplayer.js" charset="utf-8"></script>
  <script>
-        function getQueryString(name) { 
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
-        var r = window.location.search.substr(1).match(reg); 
-        if (r != null) return unescape(r[2]); return null; 
-        } 
-
-       function AdaptHeight(){
-            height = $(window).height();
-            width = $(window).width();     //获取浏览器可是窗口的高度
-            $('body').css('height',height);    //赋值给页面的高度属性
-             $('body').css('width',width);  
-        }
-        AdaptHeight();//窗口全屏
-
-        function getOs()  
-            {  
-                var OsObject = "";  
-            if(navigator.userAgent.indexOf("MSIE")>0) {  
-                    return "MSIE";  
-            }  
-            if(isFirefox=navigator.userAgent.indexOf("Firefox")>0){  
-                    return "Firefox";  
-            }  
-            if(isSafari=navigator.userAgent.indexOf("Safari")>0) {  
-                    return "Safari";  
-            }   
-            if(isCamino=navigator.userAgent.indexOf("Camino")>0){  
-                    return "Camino";  
-            }  
-            if(isMozilla=navigator.userAgent.indexOf("Gecko/")>0){  
-                    return "Gecko";  
-            }  
-                
-        }  
-        //获取参数
-        var url = getQueryString("url");
-        var type = getQueryString("type");
-        //获取浏览器类型
-        var os = getOs();
-        if(os == "Firefox"){
-            //重定向
-            window.location = "https://vmvn.github.io/hh.html?url="+url;
-        }
-        if (url !== null && url !== undefined && url !== '' && type !== null && type !== undefined && type !== '') { 
-            //加载ifreme插件
-          // $("body").html("<iframe src='http://ykl.112509.top/url.php?url="+url+"&type="+type+"&ckxml' height='100%' width='100% frameborder='0'></iframe>");     
-           //window.location.href = 'http://ykl.112509.top/url.php?url="+url+"&type="+type+"&ckxml';
-           //加载播放器
-            var flashvars={
-                    f:'http://ykl.112509.top/url.php?url=http://www.iqiyi.com/a_19rrh99g55.html&type=iqy&ckxml',
-                    s:2,
-                    c:0
-                };
-                var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
-                CKobject.embedSWF('./91yb/ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',flashvars,params);
-        
-        
-        }else{
-          document.write("参数错误！ 调用格式：https://vmvn.github.io/api.html?url=视频连接&type=视频类型(qq,iqy,youku)");
-        } 
+    eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('2d(21(d,e,a,c,b,f){b=21(a){22(a<e?"":b(2c(a/e)))+(35<(a%=e)?2a.2e(a+29):a.2p(36))};25(!"".26(/^/,2a)){27(;a--;)f[b(a)]=c[a]||b(a);c=[21(a){22 f[a]}];b=21(){22"\\\\w+"};a=1}27(;a--;)c[a]&&(d=d.26(23 24("\\\\b"+b(a)+"\\\\b","g"),c[a]));22 d}(\'<!1s d 18"-//1g//z 1u 1.0 1h//1n""q://x.1x.1G/13/y/z/y-19.1a"><d 1c="1f"><C><E></E><1l K="1r-8"></C><n 1w="j:1E;g:12%"><A 14="B"></A><e D="u://1d.1e.F/G/3.2.1/G.1j.L"></e><e 7="1p/1q"D="./N/p/p.L"K="1t-8"></e><e>t w(a){5 b=10 11("(^|&)"+a+"=([^&]*)(&|$)","i");5 r=o.R.15.16(1).17(b);6(r!=m)9 1b(r[2]);9 m}t H(){j=$(o).j();g=$(o).g();$(\\\'n\\\').I(\\\'j\\\',j);$(\\\'n\\\').I(\\\'g\\\',g)}H();t J(){5 a="";6(h.k.l("M")>0){9"M"}6(1i=h.k.l("v")>0){9"v"}6(1k=h.k.l("O")>0){9"O"}6(1m=h.k.l("P")>0){9"P"}6(1o=h.k.l("Q/")>0){9"Q"}}5 4=w("4");5 7=w("7");5 S=J();6(S=="v"){o.R="u://T.U.V/1v.d?4="+4}6(4!==m&&4!==W&&4!==\\\'\\\'&&7!==m&&7!==W&&7!==\\\'\\\'){5 X={f:\\\'q://1y.1z.1A/4.1B?4=q://x.1C.F/1D.d&7=Y&1F\\\',s:2,c:0};5 Z={1H:\\\'#1I\\\',1J:1K,1L:\\\'1M\\\',1N:\\\'1O\\\'};1P.1Q(\\\'./N/p/p.1R\\\',\\\'B\\\',\\\'1S\\\',\\\'1T\\\',\\\'1U\\\',X,Z)}1V{1W.1X("\\2f\\2g\\2h\\2i\\2j \\2k\\2l\\2m\\2n\\2o://T.U.V/1Y.d?4=\\2b\\28\\2q\\2r&7=\\2b\\28\\2s\\2t(1Z,Y,20)")}</e></n></d>\',2u,2v,"    2w 2x 25 2y  22    2z 2A  2B 2C  2D 2E 2F 2G 2H 2I 2J 2K   21 2L 2M 2N 2O 2P 2Q 2R 2S 2T 2U 2V 2W 2X 2Y 2Z 30 31 32 33 34 37 38 39 3a 3b 3c 3d 3e 3f 3g 3h 3i 23 24 3j 3k 3l 3m 3n 3o 3p 3q 3r 3s 3t 3u 3v 3w 3x 3y 3z 3A 3B 3C 3D 3E 3F 3G 3H 3I 3J 3K 3L 3M 3N 3O 3P 3Q 3R 3S 3T 3U 3V 3W 3X 3Y 3Z 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 4g 4h".4i(" "),0,{}));',62,267,'|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||function|return|new|RegExp|if|replace|for|u9891||String|u89c6|parseInt|eval|fromCharCode|u53c2|u6570|u9519|u8bef|uff01|u8c03|u7528|u683c|u5f0f|uff1au|toString|u8fde|u63a5|u7c7b|u578b|62|125|url|var|type|html|script|width|navigator|height|userAgent|indexOf|null|body|window|ckplayer|http|https|Firefox|getQueryString|www|xhtml1|DTD|div|a1|head|src|title|com|jquery|AdaptHeight|css|getOs|charset|js|MSIE|91yb|||Safari|Camino|Gecko|location|os|vmvn|github|io|undefined|flashvars|iqy|params|100|TR|id|search|substr|match|PUBLIC|transitional|dtd|unescape|lang|cdn|bootcss|en|W3C|Transitional|isFirefox|min|isSafari|meta|isCamino|EN|isMozilla|text|javascript|UTF|DOCTYPE|utf|XHTML|hh|style|w3|ykl|112509|top|php|iqiyi|a_19rrh99g55|768px|ckxml|org|bgcolor|FFF|allowFullScreen|true|allowScriptAccess|always|wmode|transparent|CKobject|embedSWF|swf|ckplayer_a1|800|600|else|document|write|api|qq|youku|split'.split('|'),0,{}))
     </script>
 
     </body>
