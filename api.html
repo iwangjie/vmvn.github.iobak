@@ -3,7 +3,6 @@
     <head>
         <title></title>
         <meta charset="UTF-8">
-        <link href="css/style.css" rel="stylesheet">
     </head>
     <body style="height:768px;width:100%">
         <div id="a1"></div>
@@ -64,13 +63,12 @@
                     c:0
                 };
                 var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
-                CKobject.embedSWF('./91yb/ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',flashvars,params);
+                CKobject.embedSWF('./91yb/ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',flashvars,params);
         
         
         }else{
           document.write("参数错误！ 调用格式：https://vmvn.github.io/api.html?url=视频连接&type=视频类型(qq,iqy,youku)");
         } 
-        $("iframe").attr('frameborder','0')
     </script>
 
     </body>
