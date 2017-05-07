@@ -9,63 +9,7 @@
         <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
  <script type="text/javascript" src="./91yb/ckplayer/ckplayer.js" charset="utf-8"></script>
  <script>
-        function getQueryString(name) { 
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
-        var r = window.location.search.substr(1).match(reg); 
-        if (r != null) return unescape(r[2]); return null; 
-        } 
-
-       function AdaptHeight(){
-            height = $(window).height();
-            width = $(window).width();     //获取浏览器可是窗口的高度
-            $('body').css('height',height);    //赋值给页面的高度属性
-             $('body').css('width',width);  
-        }
-        AdaptHeight();//窗口全屏
-
-        function getOs()  
-            {  
-                var OsObject = "";  
-            if(navigator.userAgent.indexOf("MSIE")>0) {  
-                    return "MSIE";  
-            }  
-            if(isFirefox=navigator.userAgent.indexOf("Firefox")>0){  
-                    return "Firefox";  
-            }  
-            if(isSafari=navigator.userAgent.indexOf("Safari")>0) {  
-                    return "Safari";  
-            }   
-            if(isCamino=navigator.userAgent.indexOf("Camino")>0){  
-                    return "Camino";  
-            }  
-            if(isMozilla=navigator.userAgent.indexOf("Gecko/")>0){  
-                    return "Gecko";  
-            }  
-                
-        }  
-        //获取参数
-        var url = getQueryString("url");
-        var type = getQueryString("type");
-        //获取浏览器类型
-        var os = getOs();
-        if(os == "Firefox"){
-            //重定向
-            window.location = "https://vmvn.github.io/hh.html?url="+url;
-        }
-        if (url !== null && url !== undefined && url !== '' && type !== null && type !== undefined && type !== '') { 
-           //加载播放器
-            var flashvars={
-                    f:'http://ykl.112509.top/url.php?url='+url+'&type='+type+'&ckxml',
-                    s:2,
-                    c:0
-                };
-                var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
-                CKobject.embedSWF('./91yb/ckplayer/ckplayer.swf','a1','ckplayer_a1','800','600',flashvars,params);
-        
-        
-        }else{
-          document.write("参数错误！ 调用格式：https://vmvn.github.io/api.html?url=视频连接&type=视频类型(qq,iqy,youku)");
-        } 
+   eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('j k(a){a=H Q("(^|&)"+a+"=([^&]*)(&|$)","i");a=e.C.I.K(1).O(a);5 b!=a?1r(a[2]):b}j u(){d=$(e).d();g=$(e).g();$("o").w("d",d);$("o").w("g",g)}u();j m(){6(0<7.9.8("n"))5"n";6(L=0<7.9.8("h"))5"h";6(N=0<7.9.8("p"))5"p";6(P=0<7.9.8("q"))5"q";6(X=0<7.9.8("r/"))5"r"}t 3=k("3"),4=k("4"),v=m();"h"==v&&(e.C="J://l.x.y/M.z?3="+3);6(b!==3&&A 0!==3&&""!==3&&b!==4&&A 0!==4&&""!==4){t B={f:"R://S.T.U/3.V?3="+3+"&4="+4+"&W",s:2,c:0},D={Y:"#Z",10:!0,11:"12",13:"14"};15.16("./17/E/E.18","19","1a","1b","1c",B,D)}1d 1e.1f("\\1g\\1h\\1i\\1j\\1k \\1l\\1m\\1n\\1o\\1p://l.x.y/1q.z?3=\\F\\G\\1t\\1u&4=\\F\\G\\1v\\1w(1x,1y,1s)");',62,97,'|||url|type|return|if|navigator|indexOf|userAgent||null||height|window||width|Firefox||function|getQueryString|vmvn|getOs|MSIE|body|Safari|Camino|Gecko||var|AdaptHeight|os|css|github|io|html|void|flashvars|location|params|ckplayer|u89c6|u9891|new|search|https|substr|isFirefox|hh|isSafari|match|isCamino|RegExp|http|ykl|112509|top|php|ckxml|isMozilla|bgcolor|FFF|allowFullScreen|allowScriptAccess|always|wmode|transparent|CKobject|embedSWF|91yb|swf|a1|ckplayer_a1|800|600|else|document|write|u53c2|u6570|u9519|u8bef|uff01|u8c03|u7528|u683c|u5f0f|uff1ahttps|api|unescape|youku|u8fde|u63a5|u7c7b|u578b|qq|iqy'.split('|'),0,{}))
     </script>
 
     </body>
