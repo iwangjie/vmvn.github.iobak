@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body style="height:768px;width:100%">
+        <div id="a1"></div>
+ <script type="text/javascript" src="./92yb/ckplayer/ckplayer.js" charset="utf-8"></script>
+ <script>
+        function getQueryString(name) { 
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+        var r = window.location.search.substr(1).match(reg); 
+        if (r != null) return unescape(r[2]); return null; 
+        } 
+
+       function AdaptHeight(){
+            height = $(window).height();
+            width = $(window).width();     //获取浏览器可是窗口的高度
+            $('body').css('height',height);    //赋值给页面的高度属性
+             $('body').css('width',width);  
+        }
+        AdaptHeight();//窗口全屏
+
+        function getOs()  
+            {  
+                var OsObject = "";  
+            if(navigator.userAgent.indexOf("MSIE")>0) {  
+                    return "MSIE";  
+            }  
+            if(isFirefox=navigator.userAgent.indexOf("Firefox")>0){  
+                    return "Firefox";  
+            }  
+            if(isSafari=navigator.userAgent.indexOf("Safari")>0) {  
+                    return "Safari";  
+            }   
+            if(isCamino=navigator.userAgent.indexOf("Camino")>0){  
+                    return "Camino";  
+            }  
+            if(isMozilla=navigator.userAgent.indexOf("Gecko/")>0){  
+                    return "Gecko";  
+            }  
+                
+        }  
+        //获取参数
+        var url = getQueryString("url");
+        var type = getQueryString("type");
+        //获取浏览器类型
+        var os = getOs();
+        if(os == "Firefox"){
+            //重定向
+            window.location = "https://vmvn.github.io/hh.html?url="+url;
+        }
+        if (url !== null && url !== undefined && url !== '' && type !== null && type !== undefined && type !== '') { 
+            //加载ifreme插件
+          // $("body").html("<iframe src='http://ykl.112509.top/url.php?url="+url+"&type="+type+"&ckxml' height='100%' width='100% frameborder='0'></iframe>");     
+           //window.location.href = 'http://ykl.112509.top/url.php?url="+url+"&type="+type+"&ckxml';
+           //加载播放器
+            var flashvars={
+                    f:'http://ykl.112509.top/url.php?url=http://www.iqiyi.com/a_19rrh99g55.html&type=iqy&ckxml',
+                    s:2,
+                    c:0
+                };
+                var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+                CKobject.embedSWF('./92yb/ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',flashvars,params);
+        
+        
+        }else{
+          document.write("参数错误！ 调用格式：https://vmvn.github.io/api.html?url=视频连接&type=视频类型(qq,iqy,youku)");
+        } 
+        $("iframe").attr('frameborder','0')
+    </script>
+
+    </body>
+</html>
+ 
