@@ -56,9 +56,9 @@ function player(data){
                     $('#a1').html('<video src="'+data['url']+'" controls="controls" preload="preload" poster="/wap.gif" width="100%" height="100%"></video>');
                 } else {
                     if(data['play'] == 'm3u8'){
-                        var flashvars={f:'./ck/m3u8.swf',a:data['url'],c:0,p:1,s:4,lv:0};
+                        var flashvars={f:'./ck/m3u8.swf',a:url,c:0,p:1,s:4,lv:0};
                     } else {
-                        var flashvars={f:data['url'],c:0,s:2,p:1,b:1};
+                        var flashvars={f:url,c:0,s:2,p:1,b:1};
                     }
                     var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
                     CKobject.embedSWF('./ck/ckplayer.swf','a1','ckplayer_a1','100%','100%',flashvars,params);
@@ -96,7 +96,7 @@ function player(data){
        function datac(data){
             alert(data.play)
             //得到json对象,调用播放方法
-            player(data.play);
+            player(data);
        }
        //创建script标签
        var script = document.createElement('script');
