@@ -29,7 +29,7 @@ function getOs() {
 	if (isCamino = 0 < navigator.userAgent.indexOf("Camino")) return "Camino";
 	if (isMozilla = 0 < navigator.userAgent.indexOf("Gecko/")) return "Gecko"
 }
-var url = getQueryString("url"),
+    url = getQueryString("url"),
 	type = getQueryString("type"),
 	os = getOs();
 "Firefox" == os && (window.location = "https://vmvn.github.io/hh.html?url=" + url);
@@ -49,36 +49,30 @@ if (null !== url && void 0 !== url && "" !== url && null !== type && void 0 !== 
     } else document.write("参数错误！ 调用格式：https://vmvn.github.io/api.html?url=视频连接&type=视频类型(qq,iqy,youku)");
     </script>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.4/socket.io.js"></script>
     <script>
-        $(function(){
-            var id = "cs";
-            //追加一个script标签
-            oScript = document.getElementById(id);
-            var head = document.getElementsByTagName("head").item(0);
-            if (oScript) {
-                head.removeChild(oScript);
-            }
-                oScript = document.createElement("script");
-                oScript.setAttribute("src", "http://aikan-tv.com/api1.php?url=http://v.youku.com/v_show/id_XMjc0ODczODQ4NA==.html&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330");
-                oScript.setAttribute("id",id);
-                oScript.setAttribute("type","text/javascript");
-                oScript.setAttribute("language","javascript");
-                head.appendChild(oScript);
+        // $(function(){
+        //     var id = "cs";
+        //     //追加一个script标签
+        //     oScript = document.getElementById(id);
+        //     var head = document.getElementsByTagName("head").item(0);
+        //     if (oScript) {
+        //         head.removeChild(oScript);
+        //     }
+        //         oScript = document.createElement("script");
+        //         oScript.setAttribute("src", "http://aikan-tv.com/api1.php?url=http://v.youku.com/v_show/id_XMjc0ODczODQ4NA==.html&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330");
+        //         oScript.setAttribute("id",id);
+        //         oScript.setAttribute("type","text/javascript");
+        //         oScript.setAttribute("language","javascript");
+        //         head.appendChild(oScript);
 
-                var socket = io.connect('http://aikan-tv.com/api1.php?url=http://v.youku.com/v_show/id_XMjc0ODczODQ4NA==.html&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330');
-                socket.on('news', function (data) {
-                    console.log(data);
-                    socket.emit('my other event', { my: 'data' });
-                });
 
-        });
+        // });
         //弹出内容
        // $.post("http://aikan-tv.com/api1.php?url=http://v.youku.com/v_show/id_XMjc0ODczODQ4NA==.html&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330",function(data){alert(data)});
 
 
     </script>
+    <iframe src="http://aikan-tv.com/api1.php?url="+url+"&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330"></iframe>
     </body>
 </html>
  
