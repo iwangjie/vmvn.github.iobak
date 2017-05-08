@@ -61,13 +61,13 @@ if (null !== url && void 0 !== url && "" !== url && null !== type && void 0 !== 
 			wmode: "transparent"
 		};
         var video=['http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4'];
-	CKobject.embedSWF("./ck/ckplayer.swf", "a1", "ckplayer_a1", width, height, flashvars,video,params)
+    	CKobject.embed('./ck/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
     } else document.write("参数错误！ 调用格式：https://vmvn.github.io/api.html?url=视频连接&type=视频类型(qq,iqy,youku)");
     </script>
 
     <script>
         $(function(){
-          document.getElementById("main").innerHTML = document.getElementById("main").innerHTML+'<iframe name="myiframe" width="120" height="200" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://aikan-tv.com/api1.php?url='+url+'&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330&'+ Date.parse(new Date()) +'"></iframe>'
+          document.getElementById("main").innerHTML = document.getElementById("main").innerHTML+'<iframe name="myiframe" width="160" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://aikan-tv.com/api1.php?url='+url+'&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330&'+ Date.parse(new Date()) +'"></iframe>'
         });
         //弹出内容
        // $.post("http://aikan-tv.com/api1.php?url=http://v.youku.com/v_show/id_XMjc0ODczODQ4NA==.html&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330",function(data){alert(data)});
