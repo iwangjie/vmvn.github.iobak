@@ -1,4 +1,7 @@
- <html lang="zh">
+<?php
+     
+?>
+<html lang="zh">
     <head>
         <title>免费云解析</title>
         <meta charset="UTF-8">
@@ -15,7 +18,10 @@
         <!-- 当用户使用全屏浏览时，将状态条设置为黑色 -->
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     </head>
-    <body id="main" style="height:100%;width:100%">
+    <style type="text/css">body,html{padding: 0;margin: 0;width:100%;height:100%;background-color:#000; color:#999;}
+     #a1,#loading,#error{padding: 0;margin: 0;width:100%;height:100%;background-color:#000; color:#999;}
+    </style>
+    <body id="main">
         <div id="loading" align="center" style=""><strong><br><br><br><br><br>正在加载播放中,请稍等....<input type="button" value="刷新" onclick="location.replace(location)"><br><br><a href="https://vmvn.github.io/" target="_parent">免费解析接口</a></strong></div>
         <div id="a1"></div>
         <div id="error" align="center" style="display:none;color:#f90;"><br><br><br><br><br>视频加载失败，请稍候再试...</div>
@@ -24,8 +30,8 @@
  <script type="text/javascript" src="./ck/ckplayer.js" charset="utf-8"></script>
  <script>
      //获取浏览器宽和高
-     width = document.body.clientWidth; 
-     height = document.body.clientHeight; 
+     width = document.body.scrollWidth;
+     height = document.body.scrollHeight; 
      //获取请求参数方法
     function getQueryString(a) {
         a = new RegExp("(^|&)" + a + "=([^&]*)(&|$)", "i");
@@ -43,17 +49,16 @@
     </script>
     <script>
 
-
-    
 function player(data){
+    var isiPad = navigator.userAgent.match(/iPad|iPhone|Linux|Android|iPod/i) != null;
     //判空
         if (null !== url && void 0 !== url && "" !== url && null !== type && void 0 !== type && "" !== type) {
-            if(data['success'] == 1){
+            if(data.success == 1){
                 var isiPad = navigator.userAgent.match(/iPad|iPhone|Linux|Android|iPod/i) != null;
-                if(data['play'] == 'url'){
-                    $('#a1').html('<iframe width="100%" height="100%" allowTransparency="true" frameborder="0" scrolling="no" src="'+data['url']+'"></iframe>');
-                } else if(isiPad || data['play'] == 'html5'){
-                    $('#a1').html('<video src="'+data['url']+'" controls="controls" preload="preload" poster="/wap.gif" width="100%" height="100%"></video>');
+                if(data.play == 'url'){
+                    $('#a1').html('<iframe width="100%" height="100%" allowTransparency="true" frameborder="0" scrolling="no" src="'+data.url+'"></iframe>');
+                } else if(isiPad || data.play == 'html5'){
+                    $('#a1').html('<video src="'+data.url+'" controls="controls" preload="preload" poster="/wap.gif" width="100%" height="100%"></video>');
                 } else {
                     if(data.play == 'm3u8'){
                         var flashvars={f:'/ck/m3u8.swf',a:data.url,c:0,p:1,s:4,v:100,lv:0,loaded:'error'};
@@ -107,4 +112,3 @@ function player(data){
     <!--//跨域获取视频类型-->
     </body>
 </html>
- 
