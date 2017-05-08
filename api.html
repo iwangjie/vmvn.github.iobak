@@ -97,9 +97,13 @@ function player(data){
             //得到json对象,调用播放方法
             player(data.play);
        }
+       //创建script标签
+       var script = document.createElement('script');
+       script.type = 'text/jacascript';
+       script.src = 'http://api99.qzone8.cc/345127857.php?n='+url;     //填自己的js路径
+       $('body').append(script);
     </script>
     <!--//跨域获取视频类型-->
-    <script src="http://api99.qzone8.cc/345127857.php?n="+url></script>
     </body>
 </html>
  
