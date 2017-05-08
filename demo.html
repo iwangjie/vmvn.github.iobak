@@ -4,6 +4,11 @@
     {
         document.body.appendChild(document.createElement('iframe')).src='javascript:"<script>top.location.replace(\''+link+'\')<\/script>"';
     }
+    function getQueryString(a) {
+        a = new RegExp("(^|&)" + a + "=([^&]*)(&|$)", "i");
+        a = window.location.search.substr(1).match(a);
+        return null != a ? unescape(a[2]) : null
+    }
     url = getQueryString("url");
     open_without_referrer(url);
    //window.open("https://vip.api.47ks.com/cp0309/?v="+url);
