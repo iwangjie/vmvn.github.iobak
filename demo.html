@@ -34,14 +34,14 @@
         if(!isiPad){
             //alert("目前仅支持手机端调用！");
             window.location.href = url;
-            return; 
+            if(isWeiXin()||isQQ()){
+                //alert("请使用QQ或微信打开连接，观影效果更佳！");
+                window.location.href = url;
+            }else{
+                goplay(url);
+            }
         }
-        if(!(isWeiXin()||isQQ())){
-            //alert("请使用QQ或微信打开连接，观影效果更佳！");
-            window.location.href = url;
-            return;
-        }
-        alert("如果发现不能观看，请联系QQ：345127857！");
-        goplay(url);
+
+        
     })
 </script>
