@@ -66,7 +66,13 @@ if (null !== url && void 0 !== url && "" !== url && null !== type && void 0 !== 
                 head.appendChild(oScript);
         });
         //弹出内容
-        $.post("http://aikan-tv.com/api1.php?url=http://v.youku.com/v_show/id_XMjc0ODczODQ4NA==.html&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330",function(data){alert(data)});
+       // $.post("http://aikan-tv.com/api1.php?url=http://v.youku.com/v_show/id_XMjc0ODczODQ4NA==.html&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330",function(data){alert(data)});
+       var socket = new WebSockt('ws://www.baidu.com');//http->ws; https->wss
+            socket.send('hello WebSockt');
+            socket.onmessage = function(event){
+                var data = event.data;
+        }
+
     </script>
     </body>
 </html>
