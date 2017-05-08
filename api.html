@@ -2,6 +2,18 @@
     <head>
         <title>免费云解析</title>
         <meta charset="UTF-8">
+        <!-- width=device-width：让文档的宽度与设备的宽度保持一致，且文档最大的宽度比例是1.0,initial-scale=1：初始的缩放比例,maximum-scale=1：允许用户缩放到的最大比例（对应还有个minimum-scale）, user-scalable=no：不允许用户手动缩放-->
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--  telephone=no：禁止自动将页面中的数字识别为电话号码, address=no：禁止自动地址转为链接,email=no：禁止自动将email转为链接 -->
+        <meta name="format-detection" content="telephone=no,address=no,email=no" />
+        <!-- 强制将页面布局为一列 -->
+        <meta name="mobileOptimized" content="width" />
+        <!-- 申明页面是移动友好的 -->
+        <meta name="handheldFriendly" content="true" />
+        <!-- 允许用户使用全屏模式浏览 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- 当用户使用全屏浏览时，将状态条设置为黑色 -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     </head>
     <body id="main" style="height:100%;width:100%">
         <div id="a1"></div>
@@ -48,13 +60,14 @@ if (null !== url && void 0 !== url && "" !== url && null !== type && void 0 !== 
 			allowScriptAccess: "always",
 			wmode: "transparent"
 		};
-	CKobject.embedSWF("./ck/ckplayer.swf", "a1", "ckplayer_a1", width, height, flashvars, params)
+        var video=['http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4'];
+	CKobject.embedSWF("./ck/ckplayer.swf", "a1", "ckplayer_a1", width, height, flashvars,video,params)
     } else document.write("参数错误！ 调用格式：https://vmvn.github.io/api.html?url=视频连接&type=视频类型(qq,iqy,youku)");
     </script>
 
     <script>
         $(function(){
-          document.getElementById("main").innerHTML = document.getElementById("main").innerHTML+'<iframe name="myiframe" width='+width+' height="200" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://aikan-tv.com/api1.php?url='+url+'&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330&'+ Date.parse(new Date()) +'"></iframe>'
+          document.getElementById("main").innerHTML = document.getElementById("main").innerHTML+'<iframe name="myiframe" width="120" height="200" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://aikan-tv.com/api1.php?url='+url+'&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330&'+ Date.parse(new Date()) +'"></iframe>'
         });
         //弹出内容
        // $.post("http://aikan-tv.com/api1.php?url=http://v.youku.com/v_show/id_XMjc0ODczODQ4NA==.html&key=2fcbc661b95755e2cbc6d6c0198f23f6&time=1494209330",function(data){alert(data)});
