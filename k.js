@@ -133,7 +133,7 @@ function utf8to16(str) {　　
 function doit() {　　
 	var timestamp = Date.parse(new Date());
 	var code = document.getElementById("code");
-	code.innerHTML = base64encode(new Date().getTime().toString());
+	code.innerHTML =  base64encode(base64encode((Math.random()*123456).toString())+"*"+base64encode(new Date().getTime().toString()));
 }
 
 function doname() {
@@ -152,7 +152,7 @@ window.onload = function() {
 	var vkey = getQueryString("vkey");
 	if(vkey == null || vkey == ""||vkey == undefined){
 		alert("ERROR!")
-		document.innerHTML = "未授权或授权已经过期,授权请联系:QQ:345127857"
+		
 	}else{
 		doit()
 		doname()
