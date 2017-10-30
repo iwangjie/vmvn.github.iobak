@@ -152,7 +152,7 @@ window.onload = function() {
 	var vkey = getQueryString("vkey");
 	if(vkey == null || vkey == ""||vkey == undefined){
 		alert("ERROR!")
-		window.close();
+		document.innerHTML = "未授权或授权已经过期,授权请联系:QQ:345127857"
 	}else{
 		doit()
 		doname()
